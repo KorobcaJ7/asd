@@ -1,11 +1,209 @@
 
 # asd
 ну тут сайт типа
-[data.js](https://github.com/user-attachments/files/29034608/data.js)
-[lineup.js](https://github.com/user-attachments/files/29034609/lineup.js)[tickets.js](https://github.com/user-attachments/files/29034611/tickets.js)
-[main.js](https://github.com/user-attachments/files/29034610/main.js)
-[style.css](https://github.com/user-attachments/files/29034612/style.css)
-*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:Arial,Helvetica,sans-serif;background:#070707;color:#f4f4f4;line-height:1.5;overflow-x:hidden}body:before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle at 15% 10%,rgba(255,61,0,.25),transparent 28%),radial-gradient(circle at 80% 20%,rgba(255,255,255,.09),transparent 25%),linear-gradient(135deg,rgba(255,255,255,.03) 25%,transparent 25%);z-index:-2}body:after{content:"";position:fixed;inset:0;opacity:.18;background-image:linear-gradient(rgba(255,255,255,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.08) 1px,transparent 1px);background-size:42px 42px;z-index:-1;pointer-events:none}a{text-decoration:none;color:inherit}.header{position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;padding:22px 6vw;background:rgba(7,7,7,.82);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.12)}.logo{font-size:24px;font-weight:900;letter-spacing:-1px}.logo span{color:#ff3d00}.nav{display:flex;gap:10px;flex-wrap:wrap}.nav a{padding:10px 16px;border:1px solid rgba(255,255,255,.12);border-radius:999px;color:#cfcfcf;transition:.25s}.nav a:hover,.nav a.active{background:#ff3d00;color:#fff;border-color:#ff3d00}.hero{position:relative;min-height:680px;padding:80px 6vw;display:grid;grid-template-columns:1.2fr .8fr;gap:42px;align-items:center;overflow:hidden}.hero:before{content:"STREET LIVE";position:absolute;left:4vw;top:70px;font-size:150px;font-weight:900;color:rgba(255,255,255,.035);letter-spacing:-8px;z-index:-1;white-space:nowrap}.hero-content{max-width:760px}.tag{text-transform:uppercase;letter-spacing:3px;color:#ff3d00;font-size:13px;font-weight:900;margin-bottom:16px}.hero h1,.page-hero h1{font-size:clamp(52px,9vw,124px);line-height:.86;text-transform:uppercase;letter-spacing:-6px;font-weight:900}.hero h1 span{color:#ff3d00;text-shadow:8px 8px 0 rgba(255,255,255,.08)}.hero-text{max-width:590px;margin:28px 0;color:#d6d6d6;font-size:20px}.hero-actions{display:flex;gap:14px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;border:0;cursor:pointer;border-radius:0;padding:15px 22px;font-weight:900;text-transform:uppercase;letter-spacing:.8px;clip-path:polygon(8px 0,100% 0,calc(100% - 8px) 100%,0 100%);transition:.25s}.btn.primary{background:#ff3d00;color:#fff;box-shadow:8px 8px 0 rgba(255,61,0,.18)}.btn.primary:hover{transform:translate(-2px,-2px);box-shadow:12px 12px 0 rgba(255,61,0,.22)}.btn.ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.22)}.btn.full{width:100%;margin-top:8px}.hero-card{background:#111;border:1px solid rgba(255,255,255,.14);padding:18px;transform:rotate(2deg);box-shadow:30px 30px 0 rgba(255,255,255,.035)}.poster{height:430px;background:linear-gradient(135deg,#ff3d00,#111 48%,#242424);display:flex;align-items:flex-end;padding:28px;position:relative;overflow:hidden}.poster:before{content:"";position:absolute;inset:18px;border:2px solid rgba(255,255,255,.7)}.poster:after{content:"LIVE";position:absolute;right:-38px;top:50px;font-size:78px;font-weight:900;color:rgba(255,255,255,.11);transform:rotate(90deg)}.poster span{position:relative;font-size:64px;line-height:.8;font-weight:900;letter-spacing:-4px}.concert-info{padding:18px 4px 4px}.concert-info h3{font-size:28px}.section{padding:60px 6vw}.section-head{display:flex;align-items:end;justify-content:space-between;margin-bottom:26px}.section h2,.banner-row h2{font-size:clamp(34px,5vw,64px);text-transform:uppercase;line-height:.9;letter-spacing:-3px}.artist-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.artist-card{position:relative;min-height:310px;background:#121212;border:1px solid rgba(255,255,255,.13);padding:22px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;transition:.25s}.artist-card:before{content:"";position:absolute;inset:auto -30px -60px auto;width:180px;height:180px;background:#ff3d00;border-radius:50%;filter:blur(35px);opacity:.35}.artist-card:hover{transform:translateY(-8px);border-color:#ff3d00}.artist-card .number{color:rgba(255,255,255,.22);font-size:58px;font-weight:900}.artist-card h3{font-size:34px;text-transform:uppercase;line-height:.9;letter-spacing:-2px}.artist-card p{color:#bebebe;margin:12px 0}.artist-card strong{font-size:20px;color:#ff3d00}.banner-row{margin:50px 6vw 70px;padding:36px;display:flex;justify-content:space-between;gap:24px;align-items:center;background:linear-gradient(135deg,#181818,#0c0c0c);border:1px solid rgba(255,255,255,.15)}.footer{padding:28px 6vw;color:#999;border-top:1px solid rgba(255,255,255,.11)}.page-hero{padding:70px 6vw 30px}.page-hero.compact h1{font-size:clamp(44px,8vw,96px)}.page-hero p:not(.tag){color:#cfcfcf;max-width:640px;font-size:19px;margin-top:16px}.ticket-layout{padding:30px 6vw 80px;display:grid;grid-template-columns:1fr .8fr;gap:24px}.ticket-form,.order-card{background:#101010;border:1px solid rgba(255,255,255,.14);padding:28px}.ticket-form{display:grid;gap:16px}.ticket-form label{display:grid;gap:8px;color:#cfcfcf;font-weight:800;text-transform:uppercase;font-size:13px;letter-spacing:1px}input,select{width:100%;padding:16px;background:#070707;color:#fff;border:1px solid rgba(255,255,255,.18);font:inherit;border-radius:0;outline:none}input:focus,select:focus{border-color:#ff3d00}.order-card{position:sticky;top:100px;height:max-content}.order-card h2{font-size:46px;text-transform:uppercase;line-height:.9;margin-bottom:12px}.order-card p{color:#cfcfcf}.price-lines{margin-top:28px;display:grid;gap:16px}.price-lines div{display:flex;justify-content:space-between;gap:15px;padding-bottom:14px;border-bottom:1px solid rgba(255,255,255,.12)}.price-lines .total{font-size:24px;color:#ff3d00;border-bottom:0}.popup{position:fixed;inset:0;background:rgba(0,0,0,.78);display:none;align-items:center;justify-content:center;z-index:30;padding:20px}.popup.show{display:flex}.popup-box{position:relative;max-width:460px;background:#111;border:1px solid rgba(255,255,255,.18);padding:34px;box-shadow:20px 20px 0 rgba(255,61,0,.18)}.popup-box h2{font-size:42px;text-transform:uppercase;line-height:.9;margin-bottom:14px}.popup-box p{color:#d0d0d0;margin-bottom:20px}.popup-close{position:absolute;right:14px;top:12px;background:none;border:0;color:#fff;font-size:34px;cursor:pointer}.tools{padding:20px 6vw;display:grid;grid-template-columns:1fr 260px;gap:16px}.lineup-list{padding:20px 6vw 80px;display:grid;gap:14px}.lineup-item{display:grid;grid-template-columns:110px 1fr auto;gap:20px;align-items:center;padding:20px;background:#101010;border:1px solid rgba(255,255,255,.13);transition:.2s}.lineup-item:hover{border-color:#ff3d00;transform:translateX(5px)}.lineup-date{font-weight:900;color:#ff3d00;text-transform:uppercase}.lineup-item h3{text-transform:uppercase;font-size:28px;letter-spacing:-1px}.lineup-item p{color:#bdbdbd}.empty{padding:30px;background:#101010;border:1px solid rgba(255,255,255,.13);color:#aaa}@media(max-width:1000px){.hero,.ticket-layout{grid-template-columns:1fr}.artist-grid{grid-template-columns:repeat(2,1fr)}.order-card{position:static}.hero:before{font-size:90px}.tools{grid-template-columns:1fr}}@media(max-width:640px){.header{align-items:flex-start;gap:16px;flex-direction:column}.hero{padding-top:44px}.hero h1,.page-hero h1{letter-spacing:-3px}.poster{height:320px}.poster span{font-size:48px}.artist-grid{grid-template-columns:1fr}.banner-row{flex-direction:column;align-items:flex-start}.lineup-item{grid-template-columns:1fr}.btn{width:100%}}
-[index.html](https://github.com/user-attachments/files/29034618/index.html)
-[lineup.html](https://github.com/user-attachments/files/29034619/lineup.html)[tickets.html](https://github.com/user-attachments/files/29034621/tickets.html)
-[README.md](https://github.com/user-attachments/files/29034620/README.md)
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STREET TICKETS — Афиша концертов</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="index.html">STREET<span>TICKETS</span></a>
+    <nav class="nav">
+      <a class="active" href="index.html">Главная</a>
+      <a href="tickets.html">Билеты</a>
+      <a href="lineup.html">Line-up</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-noise"></div>
+      <div class="hero-content">
+        <p class="tag">главное событие сезона</p>
+        <h1>Макс Корж<br><span>Большой street live</span></h1>
+        <p class="hero-text">Концертная афиша с драйвом, городским ритмом и быстрым оформлением билетов.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="tickets.html?artist=korzh">Купить билет</a>
+          <a class="btn ghost" href="#artists">Смотреть афишу</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="poster poster-korzh">
+          <span>MAX<br>KORZH</span>
+        </div>
+        <div class="concert-info">
+          <p>Санкт-Петербург</p>
+          <h3>СКА Арена</h3>
+          <p>20 августа 2026 · 19:00</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="artists">
+      <div class="section-head">
+        <p class="tag">афиша</p>
+        <h2>Исполнители</h2>
+      </div>
+      <div class="artist-grid" id="artistGrid"></div>
+    </section>
+
+    <section class="banner-row">
+      <div>
+        <p class="tag">без лишнего</p>
+        <h2>Выбери артиста, количество билетов и оформи заказ</h2>
+      </div>
+      <a class="btn primary" href="tickets.html">Перейти к покупке</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>STREET TICKETS · городская афиша концертов</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Line-up — STREET TICKETS</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="index.html">STREET<span>TICKETS</span></a>
+    <nav class="nav">
+      <a href="index.html">Главная</a>
+      <a href="tickets.html">Билеты</a>
+      <a class="active" href="lineup.html">Line-up</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero compact">
+      <p class="tag">расписание</p>
+      <h1>Line-up и города</h1>
+      <p>Отфильтруй концерты по городу или найди исполнителя через поиск.</p>
+    </section>
+
+    <section class="tools">
+      <input id="searchInput" type="search" placeholder="Поиск по исполнителю..." />
+      <select id="cityFilter">
+        <option value="all">Все города</option>
+      </select>
+    </section>
+
+    <section class="lineup-list" id="lineupList"></section>
+  </main>
+
+  <footer class="footer">
+    <p>STREET TICKETS · расписание событий</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/lineup.js"></script>
+</body>
+</html>
+
+# ФИНАЛ ОЧКА
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Покупка билетов — STREET TICKETS</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="index.html">STREET<span>TICKETS</span></a>
+    <nav class="nav">
+      <a href="index.html">Главная</a>
+      <a class="active" href="tickets.html">Билеты</a>
+      <a href="lineup.html">Line-up</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero compact">
+      <p class="tag">оформление</p>
+      <h1>Покупка билета</h1>
+      <p>Выбери концерт, сектор и количество билетов. Сумма считается автоматически.</p>
+    </section>
+
+    <section class="ticket-layout">
+      <form class="ticket-form" id="ticketForm">
+        <label>
+          Исполнитель
+          <select id="artistSelect"></select>
+        </label>
+
+        <label>
+          Тип билета
+          <select id="ticketType">
+            <option value="fan">Фан-зона</option>
+            <option value="dance">Танцпол</option>
+            <option value="vip">VIP</option>
+          </select>
+        </label>
+
+        <label>
+          Количество
+          <input id="ticketCount" type="number" min="1" max="10" value="1" />
+        </label>
+
+        <label>
+          Имя покупателя
+          <input id="buyerName" type="text" placeholder="Например: Даниил" required />
+        </label>
+
+        <label>
+          Телефон
+          <input id="buyerPhone" type="tel" placeholder="+7 999 000-00-00" required />
+        </label>
+
+        <button class="btn primary full" type="submit">Оформить заказ</button>
+      </form>
+
+      <aside class="order-card">
+        <p class="tag">итог</p>
+        <h2 id="orderArtist">Макс Корж</h2>
+        <p id="orderDetails">Санкт-Петербург · СКА Арена</p>
+        <div class="price-lines">
+          <div><span>Цена за билет</span><strong id="singlePrice">4500 ₽</strong></div>
+          <div><span>Количество</span><strong id="countText">1</strong></div>
+          <div class="total"><span>Общая сумма</span><strong id="totalPrice">4500 ₽</strong></div>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <div class="popup" id="successPopup">
+    <div class="popup-box">
+      <button class="popup-close" id="closePopup">×</button>
+      <p class="tag">готово</p>
+      <h2>Покупка успешна!</h2>
+      <p id="popupText">Ваш билет оформлен.</p>
+      <a class="btn primary" href="lineup.html">Посмотреть line-up</a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>STREET TICKETS · оформление билетов</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/tickets.js"></script>
+</body>
+</html>
